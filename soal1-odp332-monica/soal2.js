@@ -151,7 +151,7 @@ console.log(totalValue("empat")); // invalid input
  * Buat program yang menerima sebuah string, lalu hitung berapa banyak huruf vokal (a, e, i, o, u) di dalam string tersebut. Gunakan function untuk mengembalikan value total jumlah huruf vocal
  */
 
-ffunction checkVowels(input) {
+function checkVowels(input) {
     if (typeof input !== 'string') { // Handle inputan harus string, kalau tidak return 'invalid input'
         return 'invalid input';
     }

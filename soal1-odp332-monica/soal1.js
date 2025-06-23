@@ -27,7 +27,7 @@ console.log(resultTwo);
 //SOAL 3
 // Ubah semua huruf kecil dalam array menjadi huruf besar
 let students = ["Tito", "arY", "Bostang"]
-let resultThree
+let resultThree = []
 //Jawaban Monik
 for (let i = 0; i < students.length; i++) {
     resultThree.push(students[i].toUpperCase()); // Ubah tiap array toUpperCase (menjadi huruf kapital)
